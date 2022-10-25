@@ -1,0 +1,64 @@
+:root{
+    --green: #0d9979;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition:  all 0.5s cubic-bezier(0.37, 1.14, 0.26, 1.24);
+}
+*::selection{
+    background: var(--green);
+    color: #fff;
+}
+
+html{
+    font-size:  62.5%;
+    overflow-x: hidden;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 1rem 5rem;
+    width: 100%;
+}
+header .logo{
+    color: var(--green);
+    font-size: 3rem;
+}
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+header .navbar ul li{
+    margin: 0 1rem;
+
+}
+
+header .navbar ul li{
+    margin: 0 1rem;
+}
+
+header .navbar ul li a{
+    font-size: 2rem;
+    color: #2B7A0B;
+}
+header .navbar ul li a:hover{
+color: var(--green);  
+}
+
