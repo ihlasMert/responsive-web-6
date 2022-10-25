@@ -59,6 +59,12 @@ header .navbar ul li a{
     color: #2B7A0B;
 }
 header .navbar ul li a:hover{
-color: var(--green);  
+color: black;  
+}
+header .fa-bars{
+    font-size: 3rem;
+    color: #666;
+    cursor: pointer;
+    display: flex;
 }
 
